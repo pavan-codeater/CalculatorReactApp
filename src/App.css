@@ -1,0 +1,82 @@
+#main-container {
+  min-height: 600px;
+  width: 400px;
+  /* background-color: rgba(195, 67, 67, 0.6); */
+  background: linear-gradient(0.25turn, #1455e0, #f69d3c);
+
+  /* linear-gradient:() */
+  margin-left: 500px;
+  margin-top: 60px;
+  position: relative;
+  border-radius: 10px;
+}
+
+h1 {
+  position: absolute;
+  left: 80px;
+}
+
+.text {
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  color: rgb(11, 14, 13);
+  background-color: white;
+  font-size: 30px;
+}
+
+.numbers-symbol {
+  height: 380px;
+  width: 80%;
+  background: linear-gradient(0.25turn, #3f87a6, rgba(226, 18, 18, 0.5));
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: absolute;
+  top: 200px;
+  margin-left: 30px;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.rows button {
+  font-size: 25px;
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  color: rgb(12, 11, 11);
+  background: linear-gradient(0.25turn, #47e014, #f69d3c);
+  /* border-radius:red; */
+  cursor: pointer;
+}
+
+.reset-equals {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.reset-equals button {
+  margin-top: 30px;
+  background-color: rgb(18, 232, 100);
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  color: black;
+  /* animation: mymove 4s infinite ease-in-out; */
+}
+
+
+
+@media only screen and (max-width: 350px) {
+  div {
+    background-color: lightblue;
+    margin-left: 0px;
+  }
+
+}
+
